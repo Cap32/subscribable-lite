@@ -1,4 +1,4 @@
-Super Light weight Subscribe/Publish event system for Node.js and browser. (Less than 0.5KB after gzipped)
+Super Light weight Subscribe/Publish event system for Node.js and browser. (Only 0.52KB after gzipped)
 
 ## Installing
 
