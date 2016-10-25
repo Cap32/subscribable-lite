@@ -1,5 +1,5 @@
 
-const _subs = '_subscriblable_lite';
+const _subs = '_subscribable_lite';
 
 const Subscribable = function Subscribable() {};
 
