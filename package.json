@@ -1,6 +1,6 @@
 {
   "name": "subscribable-lite",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Super Light weight Subscribe/Publish event system for Node.js and browser",
   "scripts": {
     "prebuild": "rimraf ./dist && mkdirp ./dist",
