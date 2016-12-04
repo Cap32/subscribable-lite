@@ -1,9 +1,10 @@
 
+const assign = require('object-assign');
 const _subs = '_subscribable_lite';
 
 const Subscribable = function Subscribable() {};
 
-Object.assign(Subscribable.prototype, {
+assign(Subscribable.prototype, {
 	subscribe(fn) {
 		fn && (this[_subs] = (this[_subs] || []).concat(fn));
 		return () => this.unsubscribe(fn);
