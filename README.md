@@ -1,4 +1,8 @@
-Super Light weight Subscribe/Publish event system for Node.js and browser. (UMD version only 391B after gzipped)
+# subscribable-lite
+
+[![Build Status](https://travis-ci.org/Cap32/subscribable-lite.svg?branch=master)](https://travis-ci.org/Cap32/subscribable-lite) [![Coverage Status](https://coveralls.io/repos/github/Cap32/subscribable-lite/badge.svg?branch=master)](https://coveralls.io/github/Cap32/subscribable-lite?branch=master)
+
+Super Light weight Subscribe/Publish event system for Node.js and browser. (UMD version only 395B after gzipped)
 
 ## Installing
 
