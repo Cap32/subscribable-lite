@@ -19,7 +19,8 @@
   "files": [
     "dist",
     "browser.js",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "author": "cap32",
   "license": "MIT",

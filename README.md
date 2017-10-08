@@ -50,4 +50,4 @@ sub.publish('you', 'are', 'awesome');
 
 ## License
 
-MIT
+MIT (c) Christopher Peng (Cap32)
