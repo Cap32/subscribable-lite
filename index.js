@@ -13,7 +13,7 @@ Subscribable.prototype.publish = function publish() {
 };
 
 Subscribable.prototype.unsubscribe = function unsubscribe(fn) {
-	if (fn) { (this[_subs] || []).splice(this[_subs].indexOf(fn), 1); }
+	if (fn && this[_subs]) { this[_subs].splice(this[_subs].indexOf(fn), 1); }
 	else { this[_subs] = []; }
 };
 
