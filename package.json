@@ -10,6 +10,7 @@
     "build": "npm run build:cjs && npm run build:umd && npm run build:min",
     "start": "npm test -- -w",
     "test": "mocha --require=babel-register test",
+    "gzip": "gzip -c dist/subscribable-lite.min.js | wc -c",
     "prepublish": "npm run build"
   },
   "main": "index.js",
@@ -36,7 +37,7 @@
     "eslint-plugin-babel": "^3.3.0",
     "mkdirp": "^0.5.1",
     "mocha": "^3.1.2",
-    "rimraf": "^2.5.4"
+    "rimraf": "^2.6.2"
   },
   "dependencies": {}
 }
