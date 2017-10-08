@@ -12,7 +12,7 @@
     "test": "jest --coverage",
     "coverage": "cat ./coverage/lcov.info | coveralls",
     "gzip": "gzip -c dist/subscribable-lite.min.js | wc -c",
-    "prepublish": "npm run build"
+    "preversion": "npm test && npm run build"
   },
   "main": "index.js",
   "browser": "browser.js",
